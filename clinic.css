@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    margin: 0 auto;
+    padding: 0px 0 0;
+    text-align: center;
+    background: #F6F6F6;
+    color: #515151;
+    font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+}
+header{
+    height: 209px;
+    width:923px;
+    margin: 0 auto;
+}
+.container{
+    height:1062px;
+    margin:0 auto;
+}
+.header-left p{
+    color:#515151;
+    font-size:10px;
+}
+.that{
+    text-align: right;
+}
+.header-left h2{
+    color:#515151;
+    font-size:25.61px;
+    background: url(bgTel.png) no-repeat center left;
+    text-align: right;
+}
+.header-right{
+    float: left;
+    margin-top:62px;
+}
+.header-left{
+    float:right;
+    margin-top:22px;
+    line-height: 2;
+}
+
+.header-left span{
+    color:#B22C00;
+}
+.this{
+    border:solid 1px #D6D6D6;
+    padding:5px 5px 5px 5px;
+}
+.container{
+    border-top: solid 7px #66C6C4;
+    position:relative;
+}
+.gnavja{
+    display:block;
+    color:#ffffff;
+    font-size:14px;
+} 
+.gnaven{
+    display:block;
+    color:#ffffff;
+    font-size:10px;
+}
+.g-nav li{
+    float:left;
+    border-left:1px solid #99E1DF;
+    border-right:1px solid #71C9C7;
+    width:183px;
+    padding:18px 0px 18px 0px;
+}
+.g-nav{
+    position:absolute;
+    top:136px;
+    background-image:linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    width:925px;
+    height:72px;
+    border:1px solid #6CC6C4;
+    border-radius: 5px;
+}
+.g-nav a{
+    text-decoration: none;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px #66C6C4;
+}
+.g-nav li{
+    font-weight: bold;
+}
+.g-nav li:hover{
+   background-image: linear-gradient(rgb(127, 209, 206) 0%,rgb(136, 223, 221) 100%);
+}
+.main-wrraper{
+    height:698px;
+    margin-top:20px;
+    margin-left:173px;
+    width:923px;
+}
+.main-wrraper h2{
+    font-size:16px;
+    color:#ffffff;
+    font-weight:bold;
+}
+.main-wrraper a{
+    font-size:14px;
+    color:#595959;
+    text-decoration: none;
+    font-weight:bold;
+    padding-left:20px;
+}
+.main-wrraper{
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+}
+.menu-top{
+    height:232px;
+    width:261px;
+}
+.menu-under{
+    height:232px;
+    width:261px;
+    margin-top:22px;
+}
+.menu-top h2{
+    background-image: linear-gradient(rgb(127, 209, 206) 0%,rgb(136, 223, 221) 100%);
+    border:1px solid #6CC6C4;
+    padding:15px 0px 15px 15px;
+    border-radius: 3px;
+}
+.menu-under h2{
+    background-image: linear-gradient(rgb(127, 209, 206) 0%,rgb(136, 223, 221) 100%);
+    border:1px solid #6CC6C4;
+    padding:15px 0px 15px 15px;
+    border-radius: 3px;
+}
+.main-wrraper ul{
+    background-color: #ffffff;
+    padding-bottom:22px;
+}
+.main-wrraper li{
+    border-bottom: 1px solid #66C6C4;
+    margin:0px 10px;
+    background: url(bgListIcon01.png) no-repeat center left;
+    padding:13px 0px;
+   
+}
+.m-nav{
+    border:1px solid #6CC6C4;
+}
+.main-image img{
+    height:280px;
+    width:640px;
+    position: absolute;
+    top:0px;
+    left:282px;
+}
+.menu-top a:hover{
+    color:#6CC6C4;
+}
+.menu-under a:hover{
+    color:#AEC24C;
+}
+
+.main-context{
+    height:413px;
+    width:643px;
+    position: absolute;
+    top:288px;
+    left:282px;
+    background-color: #ffffff;
+}
+.main-context h2{
+    font-size:16px;
+    color:#515151;
+    font-weight:bold;
+    height:69px;
+    line-height: 90px;
+    border-bottom:3px solid #6CC6C4;
+    margin:0px 20px;
+    margin-bottom: 5px;
+}
+dt{
+    font-size: 13px;
+    color:#515151;
+    font-weight:bold;
+    display: block;
+    float:left;
+    width: 145px;
+    padding-top:15px;
+    margin-left:38px;
+}
+dd{
+    font-size:13px;
+    color:#515151;
+    display:block;
+    border-bottom:dotted 1px #CCCCCC;
+    padding:15px 0px 15px 145px;
+    margin:0px 38px;
+    line-height: 1.3;
+}
+.footer-top{
+    width:923px;
+    height: 80px;
+    margin:0 auto;
+    margin-top: 18px;
+}
+.footer-nav {
+    background-color: #6CC6C4;
+    border-radius: 5px;
+}
+.footer-nav a{
+    color:#ffffff;
+    text-decoration:none;
+}
+.footer-top li{
+    float: left;
+    font-size:13px;
+    color: #ffffff;
+    padding:10px 15px 10px 20px; 
+    margin-left: 10px;
+    background: url(bgFooterIcon.png) no-repeat center left; 
+    
+}
+.footer-nav{
+    height:923px;
+    height:34px;
+}
+.footer-top p{
+   text-align: right;
+   font-size:13px;
+   color:#515151;
+   margin-top:20px;
+}
+.footer-top span{
+    font-weight:bold;
+}
+.footer-under p{
+    font-size:12.09px;
+    color:#515151;
+    text-align: center;
+    padding-top:17px;
+}
+.footer-under{
+    height: 50px;
+    width:923px;
+    margin: 0 auto;
+    border-top:3px solid #66C6C4;
+}
